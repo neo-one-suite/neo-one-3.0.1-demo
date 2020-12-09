@@ -25,6 +25,14 @@ npx jest staging.test.ts
 This test requires starting a local development network and then using the defined validator
 to form a transaction that populates our test wallets for development purposes.
 
+As before when using the current build of our node you may have to set the following environment variables to start:
+```
+EDGE_USE_CORECLR=1
+EDGE_APP_ROOT=node_modules/@neo-one/node-vm/lib/Debug/netcoreapp3.0
+```
+
+either export these to your local terminal or prepend them to the command below.
+
 to test, open a second terminal and start a local development network with:
 ```
 npx neo-one start network
