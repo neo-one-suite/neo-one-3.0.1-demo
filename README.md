@@ -8,7 +8,7 @@ To get started you can clone this repository and run:
 npm install
 ```
 
-## Transfer's using the staging node (synced with testnet)
+## Transfers using the staging node (synced with testnet)
 
 This test makes use of our currently running 3.0.1 node at https://staging.neotracker.io/rpc.
 
@@ -20,7 +20,7 @@ to test simply run:
 npx jest staging.test.ts
 ```
 
-## Transfer's using a local consensus node with 1-validator that we control
+## Transfers using a local consensus node with 1-validator
 
 This test requires starting a local development network and then using the defined validator
 to form a transaction that populates our test wallets for development purposes.
